@@ -1,0 +1,33 @@
+{
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-p>": false,
+        "<C-w>": false,
+        "<C-b>": false,
+        "<C-n>": false,
+        "<C-a>": false,
+        "<C-c>": false
+    },
+    "workbench.colorTheme": "Monokai",
+    "editor.lineNumbers": "relative",
+}
