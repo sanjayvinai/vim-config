@@ -3,8 +3,7 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "<leader>",
-                "h"
+                "H"
             ],
             "commands": [
                 "workbench.action.previousEditor"
@@ -12,8 +11,7 @@
         },
         {
             "before": [
-                "<leader>",
-                "l"
+                "L"
             ],
             "commands": [
                 "workbench.action.nextEditor"
